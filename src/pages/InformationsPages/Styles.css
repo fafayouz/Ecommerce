@@ -1,0 +1,30 @@
+.Information-Page-Container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.Table-Informations {
+    width: 60%;
+    border-collapse: collapse;
+}
+.Table-Informations th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  .Table-Informations td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    transition: all 0.2s ease-in;
+  }
+  .Table-Informations td:hover{
+      background-color: #F00BDD;
+      cursor: pointer;
+  }
+  .Information-Page-Container p {
+      text-align: center;
+      padding: 2rem;
+  }

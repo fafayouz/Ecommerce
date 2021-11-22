@@ -1,0 +1,27 @@
+.SinglePage-Item {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.SinglePage-Item-Image {
+    width: 35%;
+    height: 90%;
+    background-color: yellow;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SinglePage-Item-Image img {
+    width: 100%;
+    height: 100%;
+}
+.SinglePage-Item-Informations {
+    width: 60%;
+    height: 80%;
+    background-color: yellow;
+}

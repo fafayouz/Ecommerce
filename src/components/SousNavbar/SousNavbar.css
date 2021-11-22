@@ -1,0 +1,87 @@
+.SousNavbar-Container {
+    width: 100%;
+    height: 3.5rem;
+	background-color: white;
+}
+nav{
+	width: 100%;
+	height: inherit;
+	opacity: 1;
+	z-index: 99999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #D6D6D6;
+	background-color: white;
+	z-index: 99999999;
+}
+
+nav ul {
+    height: inherit;
+	float: right;
+	list-style: none;
+	position: relative;
+	z-index: 999999999;
+
+}
+nav ul li {
+	display: inline-block;
+	margin: 0 5px;
+
+}
+nav ul li a {
+	color: black;
+	text-decoration: none;
+	line-height: 4.2rem;
+	font-size: 0.9rem;
+	padding: 10px 15px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+	background: #C30AB4;
+	color: white;
+}
+nav ul ul {
+	position: absolute;
+	top: 6rem;
+	opacity: 0;
+	visibility: hidden;
+	transition: .5s;
+
+}
+nav ul li:hover > ul{
+	opacity: 1;
+	visibility: visible;
+	top: 5.2rem;
+
+}
+nav ul ul li {
+	width: 11.5rem;
+	height: 3.5rem;
+	display: list-item;
+	border-bottom: 1px solid white;
+	background: #C30AB4;
+    margin-left: -2.5rem;
+}
+nav ul ul li a {
+	color: white;
+    font-size: 0.7rem;
+	}
+nav ul ul li:hover{
+	background: #f00bdd;
+}
+nav ul ul li a:hover {
+	background: #f00bdd;
+
+}
+nav ul ul li{
+	background: #C30AB4;
+}
+
+nav ul ul ul li {
+	position: relative;
+	top: -70px;
+	left: 9.4rem;
+
+}

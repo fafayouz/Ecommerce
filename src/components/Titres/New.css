@@ -1,0 +1,10 @@
+.New-Title {
+    width: 20%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+    border-radius: 0.4rem;
+    margin: 0 auto;
+}
